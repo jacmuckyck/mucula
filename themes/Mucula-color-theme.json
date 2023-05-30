@@ -704,7 +704,6 @@
 		{
 			"name": "Function parameters",
 			"scope": [
-				"entity.name.variable.parameter",
 				"meta.at-rule.function variable",
 				"meta.at-rule.mixin variable",
 				"meta.function.arguments variable.other.php",
@@ -977,6 +976,16 @@
 				"foreground": "#F1FA8C"
 			}
 		},
+{
+					"scope": 
+					["variable.other.constant",
+					"variable.parameter"
+					],
+
+					"settings": {
+						"foreground": "#F8F8F2"
+					},
+				},
 		{
 			"name": "Non-capture operators",
 			"scope": [
