@@ -274,6 +274,7 @@
 		{
 			"scope": [
 				"support.class",
+				"variable.other.property.js",
 			],
 			"settings": {
 				"foreground": "#FFB86C"
