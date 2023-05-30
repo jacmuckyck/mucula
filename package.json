@@ -1,0 +1,21 @@
+{
+  "name": "mucula",
+  "displayName": "Mucula",
+  "description": "A Dracula experimentation",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mucula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mucula-color-theme.json"
+      }
+    ]
+  }
+}
