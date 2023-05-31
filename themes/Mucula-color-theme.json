@@ -160,10 +160,10 @@
 		"editorRuler.foreground": "#FFFFFF1A",
 		"editorCodeLens.foreground": "#6272A4",
 		"editorBracketHighlight.foreground1": "#8be9fd",
-		"editorBracketHighlight.foreground2": "#bc97ef",
+		"editorBracketHighlight.foreground5": "#bc97ef",
 		"editorBracketHighlight.foreground3": "#e8e883",
 		"editorBracketHighlight.foreground4": "#50fa7b",
-		"editorBracketHighlight.foreground5": "#ffb86c",
+		"editorBracketHighlight.foreground2": "#ffb86c",
 		"editorBracketHighlight.foreground6": "#ff79c6",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF5555",
 		"editorOverviewRuler.border": "#191A21",
@@ -273,11 +273,11 @@
 		},
 		{
 			"scope": [
-				"support.class",
-				"variable.other.property.js",
+				// "support.class",
+				// "variable.other.property.js",
 			],
 			"settings": {
-				"foreground": "#FFB86C"
+				"foreground": "#BD93F9"
 			}
 		},
 		{
@@ -931,7 +931,10 @@
 				},
 				{
 					"scope": [
-						"support.variable.property.js"
+						// "support.variable.property.js",
+						// "support.class",
+						"meta.object-literal.key.js",
+						"variable.other.object.js"
 					],
 					"settings": {
 						"foreground": "#BD93F9"
@@ -1022,7 +1025,7 @@
 {
 					"scope": 
 					["variable.other.constant",
-					"variable.parameter"
+					// "variable.parameter"
 					],
 
 					"settings": {
@@ -1085,25 +1088,25 @@
 				"foreground": "#50FA7B"
 			}
 		},
-		{
-			"name": "Strings",
-			"scope": [
-				"string"
-			],
-			"settings": {
-				"foreground": "#F1FA8C"
-			}
-		},
-		{
-			"name": "String quotes (temporary vscode fix)",
-			"scope": [
-				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end"
-			],
-			"settings": {
-				"foreground": "#E9F284"
-			}
-		},
+		// {
+		// 	"name": "Strings",
+		// 	"scope": [
+		// 		"string"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#F1FA8C"
+		// 	}
+		// },
+		//{
+			// "name": "String quotes (temporary vscode fix)",
+			// "scope": [
+			// 	"punctuation.definition.string.begin",
+			// 	"punctuation.definition.string.end"
+			// ],
+			// "settings": {
+			// 	"foreground": "#E9F284"
+			// }
+	//	},
 		{
 			"name": "Property quotes (temporary vscode fix)",
 			"scope": [
@@ -1129,15 +1132,15 @@
 		{
 			"name": "Variables and object properties",
 			"scope": [
-				"variable",
-				"constant.other.key.perl",
-				"support.variable.property",
-				"variable.other.constant.js",
-				"variable.other.constant.ts",
-				"variable.other.constant.tsx"
+				// "variable",
+				// "constant.other.key.perl",
+				// "support.variable.property",
+				// "variable.other.constant.js",
+				// "variable.other.constant.ts",
+				// "variable.other.constant.tsx"
 			],
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#ffff10"
 			}
 		},
 		{
