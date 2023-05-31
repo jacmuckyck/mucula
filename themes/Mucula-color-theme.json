@@ -159,10 +159,10 @@
 		"editorIndentGuide.activeBackground": "#FFFFFF45",
 		"editorRuler.foreground": "#FFFFFF1A",
 		"editorCodeLens.foreground": "#6272A4",
-		"editorBracketHighlight.foreground1": "#e8e883",
-		"editorBracketHighlight.foreground2": "#8be9fd",
-		"editorBracketHighlight.foreground3": "#50fa7b",
-		"editorBracketHighlight.foreground4": "#bc97ef",
+		"editorBracketHighlight.foreground1": "#8be9fd",
+		"editorBracketHighlight.foreground2": "#bc97ef",
+		"editorBracketHighlight.foreground3": "#e8e883",
+		"editorBracketHighlight.foreground4": "#50fa7b",
 		"editorBracketHighlight.foreground5": "#ffb86c",
 		"editorBracketHighlight.foreground6": "#ff79c6",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#FF5555",
@@ -894,7 +894,49 @@
 			"settings": {
 				"foreground": "#FFB86C"
 			}
-		},
+		},{
+					"scope": [
+						"punctuation.terminator.statement.js"
+					],
+					"settings": {
+						"foreground": "#FF79C6"
+					}
+				},
+				{
+					"scope": [
+						"variable.other.constant.object.js",
+						"variable.other.readwrite.js",
+						"variable.parameter",
+					],
+					"settings": {
+						"foreground": "#F1FA8C"
+					}
+				},
+				{
+					"scope": [
+						"string"
+					],
+					"settings": {
+						"foreground": "#F8F8F2"
+					}
+				},
+				{
+					"scope": [
+						"punctuation.definition.string.begin",
+						"punctuation.definition.string.end"
+					],
+					"settings": {
+						"foreground": "#F8F8F2"
+					}
+				},
+				{
+					"scope": [
+						"support.variable.property.js"
+					],
+					"settings": {
+						"foreground": "#BD93F9"
+					}
+				},
 		{
 			"name": "YAML aliases",
 			"scope": [
