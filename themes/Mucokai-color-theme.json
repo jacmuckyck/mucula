@@ -186,7 +186,7 @@
 		"editorUnnecessaryCode.opacity": "#000000a5",
 		"editorWarning.background": "#00000000",
 		"editorWarning.border": "#00000000",
-		"editorWarning.foreground": "#fd971f",
+		"editorWarning.foreground": "#f92672", // fd971f
 		"editorWhitespace.foreground": "#57584f",
 		"editorWidget.background": "#3b3c35",
 		"editorWidget.border": "#3b3c35",
@@ -410,7 +410,7 @@
 		"symbolIcon.variableForeground": "#66d9ef",
 		"tab.activeBackground": "#272822",
 		"tab.activeBorder": "#e6db74",
-		"tab.activeForeground": "#e6db74",
+		"tab.activeForeground": "#ebe8cb",
 		"tab.activeModifiedBorder": "#57584f",
 		"tab.border": "#272822",
 		"tab.hoverBackground": "#272822",
