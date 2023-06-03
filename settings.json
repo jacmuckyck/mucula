@@ -38,7 +38,7 @@
       },
       {
         "scope": [
-          "punctuation.terminator.statement.js",
+          "punctuation.terminator.statement.js"
         ],
         "settings": {
           "foreground": "#F1FA8C"
