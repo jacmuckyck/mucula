@@ -160,7 +160,7 @@
 		"settings.numberInputBorder": "#191a21",
 		"settings.numberInputForeground": "#f8f8f2",
 		"settings.textInputBackground": "#21222c",
-		"settings.textInputBorder": "#191a21",
+		"settings.textInputBorder": "#f0e3f70c",
 		"settings.textInputForeground": "#f8f8f2",
 		"sideBar.background": "#23232e",
 		"sideBar.border": "#f0e3f70c",
@@ -727,7 +727,7 @@
 				"variable.other.constant"
 			],
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#F1FA8C"
 			}
 		},
 		{
@@ -1038,15 +1038,22 @@
 				"fontStyle": "italic"
 			}
 		},
-		{
-			"scope": [
-				"constant",
-				"variable.other.constant"
-			],
-			"settings": {
-				"foreground": "#BD93F9"
-			}
-		},
+    {
+      "scope": ["meta.function.js meta.block.js variable.other.property.js",
+      "meta.function.js meta.block.js support.variable.property.js"],
+      "settings": {
+        "foreground": "#50FA7B"
+      }
+    },
+		// {
+		// 	"scope": [
+		// 		"constant",
+		// 		"variable.other.constant"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#BD93F9"
+		// 	}
+		// },
 		{
 			"scope": [
 				"constant.character.escape",
@@ -1278,14 +1285,6 @@
 		},
 		{
 			"scope": [
-				"punctuation.terminator.statement.js"
-			],
-			"settings": {
-				"foreground": "#FF79C6"
-			}
-		},
-		{
-			"scope": [
 				"variable.other.constant.object.js",
 				"variable.other.readwrite.js",
 				"variable.parameter"
@@ -1294,6 +1293,12 @@
 				"foreground": "#F1FA8C"
 			}
 		},
+    {
+      "scope": "constant.numeric.decimal.js",
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
 		{
 			"scope": [
 				"string"
@@ -1305,21 +1310,27 @@
 		{
 			"scope": [
 				"punctuation.definition.string.begin",
-				"punctuation.definition.string.end"
+				"punctuation.definition.string.end",
+        "punctuation.definition.string.template.end.js",
+        "punctuation.definition.string.template.begin.js",
+        "punctuation.terminator.statement.js"
 			],
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#F1FA8C"
 			}
 		},
-		{
-			"scope": [
-				"meta.object-literal.key.js",
-				"variable.other.object.js"
-			],
-			"settings": {
-				"foreground": "#BD93F9"
-			}
-		},
+    {
+      "scope": "meta.objectliteral.js meta.object.member.js meta.object-literal.key.js",
+      "settings": {
+        "foreground": "#50FA7B"
+      }
+    },
+    {
+      "scope": ["variable.other.object.js", "meta.object-literal.key.js"],
+      "settings": {
+        "foreground": "#F1FA8C"
+      }
+    },
 		{
 			"scope": [
 				"variable.other.alias.yaml"
@@ -1394,14 +1405,6 @@
 			],
 			"settings": {
 				"foreground": "#F1FA8C"
-			}
-		},
-		{
-			"scope": [
-				"variable.other.constant"
-			],
-			"settings": {
-				"foreground": "#F8F8F2"
 			}
 		},
 		{
