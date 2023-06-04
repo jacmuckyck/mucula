@@ -19,6 +19,11 @@
         "label": "Mucula",
         "uiTheme": "vs-dark",
         "path": "./themes/Mucula-color-theme.json"
+      },
+      {
+        "label": "Mucokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Mucokai-color-theme.json"
       }
     ]
   }
