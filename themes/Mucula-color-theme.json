@@ -2,6 +2,7 @@
 	"$schema": "vscode://schemas/color-theme",
 	"type": "dark",
 	"colors": {
+    "editorCursor.foreground": "#f8f8f2",
     "textLink.foreground": "#8BE9FD",
     "textLink.activeForeground": "#8BE9FD",
 		"activityBar.activeBackground": "#80cfaa00",
@@ -42,9 +43,9 @@
 		"editor.selectionBackground": "#44475a",
 		"editor.selectionHighlightBackground": "#424450",
 		"editor.snippetFinalTabstopHighlightBackground": "#282a36",
-		"editor.snippetFinalTabstopHighlightBorder": "#50fa7b",
+		"editor.snippetFinalTabstopHighlightBorder": "#6272A4",
 		"editor.snippetTabstopHighlightBackground": "#282a36",
-		"editor.snippetTabstopHighlightBorder": "#6272a4",
+		"editor.snippetTabstopHighlightBorder": "#6272A4",
 		"editor.wordHighlightBackground": "#8be9fd50",
 		"editor.wordHighlightStrongBackground": "#50fa7b50",
 		"editorBracketHighlight.foreground1": "#8be9fd",
@@ -493,8 +494,8 @@
 				"entity.name.class"
 			],
 			"settings": {
-				"foreground": "#8BE9FD",
-				"fontStyle": ""
+				"foreground": "#F1FA8C",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -531,6 +532,12 @@
 				"foreground": "#6272A4"
 			}
 		},
+    {
+      "scope": "meta.class.js storage.type.class.js",
+      "settings": {
+        "foreground": "#8BE9FD"
+      }
+    },
 		{
 			"scope": [
 				"comment keyword.codetag.notation",
@@ -812,6 +819,24 @@
 				"foreground": "#FFB86C"
 			}
 		},
+    {
+      "scope": "meta.method.declaration.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#F1FA8C"
+      }
+    },
+    {
+      "scope": "meta.class.js variable.other.readwrite.js",
+      "settings": {
+        "foreground": "#8BE9FD"
+      }
+    },
+    {
+      "scope": "meta.class.js variable.object.property.js",
+      "settings": {
+        "foreground": "#F1FA8C"
+      }
+    },
 		{
 			"scope": [
 				"variable.other.constant.object.js",
@@ -1029,10 +1054,16 @@
 				"meta.variable.assignment.destructured.object.coffee variable variable"
 			],
 			"settings": {
-				"foreground": "#F8F8F2",
+				"foreground": "#F1FA8C",
 				"fontStyle": ""
 			}
 		},
+    {
+      "scope": ["constant.language.nan.js", "constant.language.boolean.false.js", "constant.language.null.js", "constant.language.boolean.true.js"],
+      "settings": {
+        "foreground": "#BD93F9"
+      }
+    },
 		{
 			"scope": [
 				"meta.selectionset.graphql variable"
