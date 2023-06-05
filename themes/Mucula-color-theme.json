@@ -207,7 +207,7 @@
 		"terminal.ansiRed": "#ff79c6",
 		"terminal.ansiWhite": "#f8f8f2",
 		"terminal.ansiYellow": "#f1fa8c",
-		"terminal.background": "#282a36",
+		"terminal.background": "#23232e",
 		"terminal.foreground": "#f8f8f2",
 		"titleBar.activeBackground": "#23232e",
 		"titleBar.activeForeground": "#6272a4",
