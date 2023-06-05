@@ -8,7 +8,7 @@
 		"activityBar.activeBackground": "#80cfaa00",
 		"activityBar.activeBorder": "#8BE9FD",
 		"activityBar.background": "#272733",
-		"activityBar.border": "#f0e3f70c",
+		"activityBar.border": "#6273a43c",
 		"activityBar.foreground": "#8da4e9",
 		"activityBar.inactiveForeground": "#6272a4",
 		"activityBarBadge.background": "#8BE9FD",
@@ -58,10 +58,10 @@
 		"editorBracketMatch.border": "#6272a4",
 		"editorCodeLens.foreground": "#6272a4",
 		"editorError.foreground": "#ff5555",
-		"editorGroup.border": "#f0e3f70c",
+		"editorGroup.border": "#6273a43c",
 		"editorGroup.dropBackground": "#44475a70",
-		"editorGroupHeader.border": "#f0e3f70c",
-		"editorGroupHeader.tabsBackground": "#282a36",
+		"editorGroupHeader.border": "#6273a43c",
+		"editorGroupHeader.tabsBackground": "#23232e",
 		"editorGroupHeader.tabsBorder": "#f0e3f700",
 		"editorGutter.addedBackground": "#50fa7b80",
 		"editorGutter.deletedBackground": "#ff555580",
@@ -105,7 +105,7 @@
 		"gitDecoration.modifiedResourceForeground": "#f1fa8c",
 		"gitDecoration.untrackedResourceForeground": "#50fa7b",
 		"input.background": "#282a36",
-		"input.border": "#f0e3f70c",
+		"input.border": "#6273a43c",
 		"input.foreground": "#f8f8f2",
 		"input.placeholderForeground": "#6272a4",
 		"inputOption.activeBorder": "#bd93f9",
@@ -128,8 +128,8 @@
 		"merge.currentHeaderBackground": "#50fa7b90",
 		"merge.incomingHeaderBackground": "#bd93f990",
 		"panel.background": "#23232e",
-		"panel.border": "#f0e3f70c",
-		"panelInput.border": "#f0e3f70c",
+		"panel.border": "#6273a43c",
+		"panelInput.border": "#6273a43c",
 		"panelTitle.activeBorder": "#ff79c6",
 		"panelTitle.activeForeground": "#f8f8f2",
 		"panelTitle.inactiveForeground": "#6272a4",
@@ -150,7 +150,7 @@
 		"progressBar.background": "#ff79c6",
 		"scrollbar.shadow": "#00000011",
 		"scrollbarSlider.background": "#5f576a69",
-		"selection.background": "#bd93f9",
+		"selection.background": "#44475a",
 		"settings.checkboxBackground": "#21222c",
 		"settings.checkboxBorder": "#191a21",
 		"settings.checkboxForeground": "#f8f8f2",
@@ -163,16 +163,16 @@
 		"settings.numberInputBorder": "#191a21",
 		"settings.numberInputForeground": "#f8f8f2",
 		"settings.textInputBackground": "#21222c",
-		"settings.textInputBorder": "#f0e3f70c",
+		"settings.textInputBorder": "#6273a43c",
 		"settings.textInputForeground": "#f8f8f2",
 		"sideBar.background": "#23232e",
-		"sideBar.border": "#f0e3f70c",
+		"sideBar.border": "#6273a43c",
 		"sideBar.foreground": "#6272a4",
 		"sideBarSectionHeader.background": "#282a36",
-		"sideBarSectionHeader.border": "#f0e3f70c",
+		"sideBarSectionHeader.border": "#6273a43c",
 		"sideBarTitle.foreground": "#6272a4",
 		"statusBar.background": "#282a36",
-		"statusBar.border": "#f0e3f70c",
+		"statusBar.border": "#6273a43c",
 		"statusBar.debuggingBackground": "#ff5555",
 		"statusBar.debuggingForeground": "#191a21",
 		"statusBar.foreground": "#6272a4",
@@ -186,8 +186,8 @@
 		"tab.activeBorder": "#f0e3f70c",
 		"tab.activeBorderTop": "#8BE9FD",
 		"tab.activeForeground": "#e7e7db",
-		"tab.border": "#f0e3f70c",
-		"tab.hoverBorder": "#f0e3f70c",
+		"tab.border": "#6273a43c",
+		"tab.hoverBorder": "#6273a43c",
 		"tab.hoverForeground": "#7f94d3",
 		"tab.inactiveBackground": "#282a36",
 		"tab.inactiveForeground": "#6272a4",
@@ -209,10 +209,10 @@
 		"terminal.ansiYellow": "#f1fa8c",
 		"terminal.background": "#272733",
 		"terminal.foreground": "#f8f8f2",
-		"titleBar.activeBackground": "#282a36",
+		"titleBar.activeBackground": "#23232e",
 		"titleBar.activeForeground": "#6272a4",
-		"titleBar.border": "#f0e3f70c",
-		"titleBar.inactiveBackground": "#282a36",
+		"titleBar.border": "#6273a43c",
+		"titleBar.inactiveBackground": "#23232e",
 		"titleBar.inactiveForeground": "#6272a4",
 		"walkThrough.embeddedEditorBackground": "#21222c",
 	},
@@ -825,18 +825,18 @@
         "foreground": "#F1FA8C"
       }
     },
-    {
-      "scope": "meta.class.js variable.other.readwrite.js",
-      "settings": {
-        "foreground": "#8BE9FD"
-      }
-    },
-    {
-      "scope": "meta.class.js variable.object.property.js",
-      "settings": {
-        "foreground": "#F1FA8C"
-      }
-    },
+    // {
+    //   "scope": "meta.class.js variable.other.readwrite.js",
+    //   "settings": {
+    //     "foreground": "#8BE9FD"
+    //   }
+    // },
+    // {
+    //   "scope": "meta.class.js variable.object.property.js",
+    //   "settings": {
+    //     "foreground": "#F1FA8C"
+    //   }
+    // },
 		{
 			"scope": [
 				"variable.other.constant.object.js",
