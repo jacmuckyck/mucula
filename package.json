@@ -24,6 +24,11 @@
         "label": "Mucokai",
         "uiTheme": "vs-dark",
         "path": "./themes/Mucokai-color-theme.json"
+      },
+      {
+        "label": "Dark Test",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_plus_experimental.json"
       }
     ]
   }
