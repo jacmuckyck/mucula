@@ -53,7 +53,7 @@
         "storage.type.primitive.groovy"
       ],
       "settings": {
-        "foreground": "#8BE9FD"
+        "foreground": "#BD93F9"
       }
     },
     {
@@ -100,10 +100,15 @@
       "name": "Variable and parameter name",
       "scope": [
         "support.variable",
-        "constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#8be9fd"
+        "foreground": "#BD93F9"
+      }
+    },
+    {
+      "scope": "constant.other.placeholder",
+      "settings": {
+        "foreground": "#BD93F9"
       }
     },
     {
@@ -113,15 +118,6 @@
       ],
       "settings": {
         "foreground": "#8BE9FD"
-      }
-    },
-    {
-      "name": "Constants and enums",
-      "scope": [
-        "variable.other.constant.readonly.local",
-      ],
-      "settings": {
-        "foreground": "#FF0000"
       }
     },
     {
