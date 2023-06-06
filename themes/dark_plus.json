@@ -140,6 +140,17 @@
       }
     },
     {
+      "name": "Constant escape sequences",
+      "scope": [
+          "constant.character.escape",
+          "constant.character.string.escape",
+          "constant.regexp"
+      ],
+      "settings": {
+          "foreground": "#FF79C6"
+      }
+  },
+    {
       "name": "CSS property value",
       "scope": [
         "support.constant.property-value",
@@ -155,47 +166,6 @@
       }
     },
     {
-      "name": "Regular expression groups",
-      "scope": [
-        "punctuation.definition.group.regexp",
-        "punctuation.definition.group.assertion.regexp",
-        "punctuation.definition.character-class.regexp",
-        "punctuation.character.set.begin.regexp",
-        "punctuation.character.set.end.regexp",
-        "keyword.operator.negation.regexp",
-        "support.other.parenthesis.regexp"
-      ],
-      "settings": {
-        "foreground": "#F8F8F2"
-      }
-    },
-    {
-      "scope": [
-        "constant.character.character-class.regexp",
-        "constant.other.character-class.set.regexp",
-        "constant.other.character-class.regexp",
-        "constant.character.set.regexp"
-      ],
-      "settings": {
-        "foreground": "#ca5959"
-      }
-    },
-    {
-      "scope": [
-        "keyword.operator.or.regexp",
-        "keyword.control.anchor.regexp"
-      ],
-      "settings": {
-        "foreground": "#f1fa8c"
-      }
-    },
-    {
-      "scope": "keyword.operator.quantifier.regexp",
-      "settings": {
-        "foreground": "#8be9fd"
-      }
-    },
-    {
       "scope": [
         "constant.character",
         "constant.other.option"
@@ -203,13 +173,69 @@
       "settings": {
         "foreground": "#FF79C6" 
       }
-    }, 
-    {
-      "scope": "constant.character.escape",
-      "settings": {
-        "foreground": "#8be9fd"
-      }
     },
+    {
+      "name": "RegExp string",
+      "scope": [
+          "string.regexp",
+      ],
+      "settings": {
+          "foreground": "#F1FA8C"
+      }
+  },
+  {
+    "scope": ["constant.other.character-class.set.regexp",
+    "constant.character.escape.backslash.regexp"],
+    "settings": {
+      "foreground": "#FF79C6"
+    }
+  },
+  {
+    "name": "Capture groups",
+    "scope": [
+        "punctuation.definition.group.regexp"
+    ],
+    "settings": {
+        "foreground": "#FFB86C"
+    }
+},
+{
+    "name": "Assertion operators",
+    "scope": [
+        "punctuation.definition.group.assertion.regexp",
+        "keyword.operator.negation.regexp"
+    ],
+    "settings": {
+        "foreground": "#FF5555"
+    }
+},
+{
+    "name": "Positive lookaheads",
+    "scope": [
+        "meta.assertion.look-ahead.regexp"
+    ],
+    "settings": {
+        "foreground": "#50FA7B"
+    }
+},
+  {
+    "name": "Character group",
+    "scope": [
+        "punctuation.definition.character-class.regexp"
+    ],
+    "settings": {
+        "foreground": "#8BE9FD"
+    }
+},
+  {
+    "name": "Non-capture operators",
+    "scope": [
+        "punctuation.definition.group.capture.regexp"
+    ],
+    "settings": {
+        "foreground": "#FF79C6"
+    }
+},
     {
       "scope": "entity.name.label",
       "settings": {
@@ -217,15 +243,15 @@
       }
     },
     {
-      "scope": "variable.parameter.js",
-      "settings": {
-        "foreground": "#FF0000"
-      }
-    },
-    {
       "scope": "variable.other.readwrite.js meta.block.js meta.arrow.js",
       "settings": {
         "foreground": "#3c00ff"
+      }
+    },
+    {
+      "scope": "variable.parameter.js",
+      "settings": {
+        "foreground": "#FFB86C"
       }
     }
   ],

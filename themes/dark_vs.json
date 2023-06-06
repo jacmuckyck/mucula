@@ -73,12 +73,6 @@
       }
     },
     {
-      "scope": "constant.regexp",
-      "settings": {
-        "foreground": "#646695"
-      }
-    },
-    {
       "scope": "entity.name.tag",
       "settings": {
         "foreground": "#FF79C6"
@@ -265,12 +259,6 @@
       "scope": "string.value",
       "settings": {
         "foreground": "#F8F8F2"
-      }
-    },
-    {
-      "scope": "string.regexp",
-      "settings": {
-        "foreground": "#d16969"
       }
     },
     {
